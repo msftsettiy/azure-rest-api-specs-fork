@@ -380,6 +380,13 @@
         }
       }
     },
+    "NodeCount": {
+      "type": "integer",
+      "format": "int32",
+      "description": "Number of CCF nodes in the Managed CCF.",
+      "title": "NodeCount",
+      "default": 3
+    },
     "ManagedCCFProperties": {
       "type": "object",
       "description": "Additional Managed CCF properties.",
@@ -416,6 +423,12 @@
           "description": "Provisioning state of Ledger Resource",
           "readOnly": true,
           "$ref": "#/definitions/ProvisioningState"
+        },
+        "nodeCount": {
+          "type": "integer",
+          "format": "int32",
+          "description": "Number of CCF nodes in the Managed CCF.",
+          "$ref": "#/definitions/NodeCount"
         }
       }
     },
