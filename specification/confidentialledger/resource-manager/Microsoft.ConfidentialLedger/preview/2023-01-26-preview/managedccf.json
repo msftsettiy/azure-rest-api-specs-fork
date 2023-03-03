@@ -156,12 +156,6 @@
           }
         ],
         "responses": {
-          "200": {
-            "description": "The request was successful and ledger was created; response contains the Managed CCF",
-            "schema": {
-              "$ref": "#/definitions/ManagedCCF"
-            }
-          },
           "201": {
             "description": "The Managed CCF resource will be created asynchronously"
           },
@@ -247,12 +241,6 @@
           },
           {
             "$ref": "../../../../../common-types/resource-management/v3/types.json#/parameters/ResourceGroupNameParameter"
-          },
-          {
-            "type": "string",
-            "description": "The filter to apply on the list operation. eg. $filter=ledgerType eq 'Public'",
-            "name": "$filter",
-            "in": "query"
           }
         ],
         "responses": {
@@ -293,12 +281,6 @@
           },
           {
             "$ref": "../../../../../common-types/resource-management/v3/types.json#/parameters/SubscriptionIdParameter"
-          },
-          {
-            "type": "string",
-            "description": "The filter to apply on the list operation. eg. $filter=ledgerType eq 'Public'",
-            "name": "$filter",
-            "in": "query"
           }
         ],
         "responses": {
@@ -477,7 +459,7 @@
       "required": true,
       "type": "string",
       "description": "Name of the Managed CCF",
-      "pattern": "^[a-zA-Z0-9]",
+      "pattern": "^[^-0-9][A-Za-z0-9-]{1,33}[A-Za-z0-9]$",
       "x-ms-parameter-location": "method"
     }
   }
