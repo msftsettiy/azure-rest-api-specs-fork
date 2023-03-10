@@ -766,6 +766,10 @@ Fcontoso
 FDID
 fearthecowboy
 featurecapabilities
+Featureset
+featuresets
+featurestore
+Featurestore
 featurestate
 Featurization
 featurized
@@ -801,6 +805,7 @@ formrecognizer
 FPGA
 Fpushpins
 fqdn
+fqdnlists
 FQDNs
 Français
 francecentral
@@ -1613,6 +1618,7 @@ prebackupvalidation
 prebuilts
 precache
 preconfigured
+prefixlists
 preflight
 prelabel
 preload
@@ -1636,6 +1642,7 @@ PrivateLink
 privateLinkForAzureAd
 privatelinkhub
 privatelinks
+privatelinkscopes
 privatelinkservice
 privatepreview
 propagations
@@ -1848,6 +1855,9 @@ ruleid
 Ruleproperties
 Ruleset
 Rulesets
+rulestack
+Rulestack
+Rulestacks
 runbook
 Runbooks
 runid
@@ -2310,6 +2320,7 @@ usersetting
 usertime
 USQL
 USUK
+uucp
 UUIDs
 VAIDK
 varbinary
@@ -2680,6 +2691,9 @@ networkinterfaces
 storagecontainers
 virtualharddisks
 vippool
+vwan
+Vwan
+VWAN
 routeset
 routesets
 wayfind
@@ -2693,6 +2707,8 @@ Discoverability
 Precheck
 logbase
 Ueba
+Untrust
+Untrusted
 hotpatching
 Offersby
 Versionswithin
